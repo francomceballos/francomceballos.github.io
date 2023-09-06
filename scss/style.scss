@@ -1,11 +1,11 @@
 /******* Bootstrap Theming ********/
 
-$primary: #0BCEAF;
+/*$primary: #0BCEAF;
 $secondary: #6c757d;
 $light: #ffffff;
-$dark: #343a40;
+$dark: #343a40;*/
 
-$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-sans-serif: 'Fira Sans', sans-serif;
 
 $body-bg: $light;
 
@@ -20,7 +20,7 @@ $enable-responsive-font-sizes: true;
 @import "bootstrap/scss/bootstrap";
 
 
-/********** Template CSS ************/
+/********** Template CSS ************/  
 h1,
 .font-weight-bolder {
     font-weight: 900 !important;

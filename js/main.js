@@ -118,19 +118,19 @@
 function cambiarIdioma(idioma) {
     const contenido = {
         es: {
-            saludo: "¡Hola! Soy Franco Ceballos, un apasionado desarrollador Full Stack en proceso de aprendizaje y crecimiento en el emocionante mundo de la programación." ,         
-            parrafo1: "Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta emocionante carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras." ,
-            parrafo2: "Desde que empecé mi viaje como desarrollador trainee, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web." ,
+            saludo: "¡Hola! Soy Franco Ceballos, un desarrollador Full Stack en proceso de aprendizaje y crecimiento en el emocionante mundo de la programación." ,         
+            parrafo1: "Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras." ,
+            parrafo2: "Desde que empecé mi viaje como desarrollador, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web." ,
             parrafo3: "He explorado lenguajes de programación tanto en el lado del cliente como en el servidor, incluyendo HTML, CSS, JavaScript y más. Además, he trabajado con tecnologías populares como React, Node.js y bases de datos SQL." ,
-            parrafo4: "¡Gracias por visitar mi página web y estaré encantado de conectarme contigo y conocer más sobre tus proyectos y metas! Aquí debajo podrás encontrar formas de contactarme" ,
+            parrafo4: "¡Gracias por visitar mi página web y estaré encantado de conectarme contigo! Aquí debajo podrás encontrar formas de contactarme." ,
         },
     
         en: {
-            saludo: "Hi! I'm Franco Ceballos, a passionate Full Stack developer in the process of learning and growing in the exciting world of programming.",          
-            parrafo1: "My passion for technology and software development has led me to embark on this exciting career to become an expert in building innovative web applications and solutions.",
-            parrafo2: "Since I started my journey as a trainee developer, I have been dedicating time and effort to acquire a diverse set of skills in web application development.",
+            saludo:   "Hi! I'm Franco Ceballos, a Full Stack developer in the process of learning and growing in the exciting world of programming.",          
+            parrafo1: "My passion for technology and software development has led me to embark on this career to become an expert in building innovative web applications and solutions.",
+            parrafo2: "Since I started my journey as a developer, I have been dedicating time and effort to acquire a diverse set of skills in web application development.",
             parrafo3: " I have explored both client-side and server-side programming languages, including HTML, CSS, JavaScript and more. In addition, I've worked with popular technologies such as React, Node.js and SQL databases. ",
-            parrafo4: " Thank you for visiting my website and I'd be happy to connect with you and learn more about your projects and goals! Below you can find ways to contact me",
+            parrafo4: " Thank you for visiting my website and I'd be happy to connect! Below you can find ways to contact me",
         }
     };
 

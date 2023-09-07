@@ -27,7 +27,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+<body data-spy="scroll" data-target=".navbar" data-offset="51" class="bg-light">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
@@ -43,9 +43,6 @@
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <a href="#service" class="nav-item nav-link">Service</a>
-                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                <a href="#testimonial" class="nav-item nav-link">Review</a>
-                <a href="#blog" class="nav-item nav-link">Blog</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
             <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
@@ -80,12 +77,12 @@
                 <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
                     <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
                 </div>
-                <div class="col-lg-7 text-center text-lg-left">
+                <div class="col-lg-7 text-with-bg text-lg-left">
                     <h3 class="text-secondary font-weight-normal mb-3">Hello! I'm</h3>
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 0px #000000"> Franco Manuel Ceballos </h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter"></h1>
-                    <div class="typed-text d-none">Trainee FullStack Developer, Information Systems Engineering Student</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    <div class="typed-text d-none">Trainee FullStack Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-6">
                         <a href="/files/Cv-FrancoManuelCeballos-2023-5.pdf" class="btn btn-light mr-5">Descargar CV <br>Español</a>
                         <a href="/files/Cv-FrancoManuelCeballos-2023-5.pdf" class="btn btn-light mr-5">Download CV<br>English</a>
                         <a class="btn btn-light btn-social mr-5" href="https://www.linkedin.com/in/francomanuelceballos/"><span class="fab fa-linkedin"></span>
@@ -99,10 +96,10 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
+    <div class="container-fluid py-5 bg-light" id="about">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About Me</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 0px #dee2e6;">About Me</h1>
                 <h1 class="position-absolute text-uppercase text-primary"></h1>
             </div>
             <div class="row align-items-center">
@@ -117,11 +114,11 @@
 
                   
                     <div id="contenido">
-                        <p id="saludo">¡Hola! Soy Franco Ceballos, un apasionado desarrollador Full Stack en proceso de aprendizaje y crecimiento en el emocionante mundo de la programación.</p>   
-                        <p id="parrafo1"> Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta emocionante carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras.</p>
-                        <p id="parrafo2"> Desde que empecé mi viaje como desarrollador trainee, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web.</p>
-                        <p id="parrafo3"> He explorado lenguajes de programación tanto en el lado del cliente como en el servidor, incluyendo HTML, CSS, JavaScript y más. Además, he trabajado con tecnologías populares como React, Node.js y bases de datos SQL.</p>
-                        <p id="parrafo4"> ¡Gracias por visitar mi página web y estaré encantado de conectarme contigo y conocer más sobre tus proyectos y metas! Aquí debajo podrás encontrar formas de contactarme</p>                  
+                        <p id="saludo" class="text-secondary font-weight-normal mb-3">¡Hola! Soy Franco Ceballos, un desarrollador Full Stack en proceso de aprendizaje y crecimiento en el emocionante mundo de la programación.</p>   
+                        <p id="parrafo1" class="text-secondary font-weight-normal mb-3"> Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras.</p>
+                        <p id="parrafo2" class="text-secondary font-weight-normal mb-3"> Desde que empecé mi viaje como desarrollador, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web.</p>
+                        <p id="parrafo3" class="text-secondary font-weight-normal mb-3"> He explorado lenguajes de programación tanto en el lado del cliente como en el servidor, incluyendo HTML, CSS, JavaScript y más. Además, he trabajado con tecnologías populares como React, Node.js y bases de datos SQL.</p>
+                        <p id="parrafo4" class="text-secondary font-weight-normal mb-3"> ¡Gracias por visitar mi página web y estaré encantado de conectarme contigo! Aquí debajo podrás encontrar formas de contactarme</p>                  
                     </div>
 
                <!--     <p lang="ES">¡Hola! Soy Franco Ceballos, un apasionado desarrollador Full Stack en proceso de aprendizaje y crecimiento en el emocionante mundo de la programación. Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta emocionante carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras.
@@ -130,7 +127,7 @@
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Franco Ceballos</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">19 Jan 1996</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Grade</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Systems Engineering Student</span></h6></div>
                         <!--<div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div> 
                         <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">francoceballos@skrill.com</span></h6></div>-->
                         <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary"><br>francomanuelceballos@gmail.com<br>francoceballos@skiff.com</span></h6></div>
@@ -147,10 +144,10 @@
 
 
     <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
+    <div class="container-fluid py-5 bg-light" id="qualification">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Education & Expericence</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 0px #dee2e6;">Education & Expericence</h1>
                 <h1 class="position-absolute text-uppercase text-primary"></h1>
             </div>
             <div class="row align-items-center">
@@ -207,10 +204,10 @@
 
 
     <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
+    <div class="container-fluid py-5 bg-light" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">My Skills</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 0px #dee2e6;">My Skills</h1>
                 <h1 class="position-absolute text-uppercase text-primary"></h1>
             </div>
             <div class="row align-items-center">
@@ -278,11 +275,11 @@
     <!-- Skill End -->
 
 
-    <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
+    <!-- Services Start 
+    <div class="container-fluid pt-5 bg-light" id="service">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">My Services</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 0px #dee2e6;">My Services</h1>
                 <h1 class="position-absolute text-uppercase text-primary"></h1>
             </div>
             <div class="row pb-3">
@@ -337,7 +334,7 @@
             </div>
         </div>
     </div>
-    <!-- Services End -->
+     Services End -->
 
 
     <!-- Portfolio Start
@@ -510,10 +507,10 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
+    <div class="container-fluid py-5 bg-light" id="contact">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact Me</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 0px #dee2e6;">Contact Me</h1>
                 <h1 class="position-absolute text-uppercase text-primary"></h1>
             </div>
             <div class="row justify-content-center">
@@ -563,7 +560,7 @@
             <div class="d-flex justify-content-center mb-4">
               <!--  <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
                <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/francomanuelceballos/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/francomanuelceballos/"><i class="fab fa-linkedin"></i></a>
               <!--  <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>-->
             </div>
             <div class="d-flex justify-content-center mb-3">

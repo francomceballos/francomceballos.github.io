@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c757d;
+  color: #2d2121;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #2d2121;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2372,13 +2372,13 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #000000 ;
   background-color: #000;
-  border-color: black ;
+  border-color: #0BCEAF ;
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #09aa90;
-  border-color: black;
+  border-color: #0BCEAF;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2593,14 +2593,14 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: aqua;
-  background-color: #ffffff;
+  background-color: #2d2121;
   border-color: #ffffff;
 }
 
 .btn-light:hover {
-  color: #212529;
-  background-color: #ececec;
-  border-color: #e6e6e6;
+  color: #fff;
+  background-color: #0BCEAF;
+  border-color: #0BCEAF;
 }
 
 .btn-light:focus, .btn-light.focus {
@@ -2890,7 +2890,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
+  color: yellow;
   border-color: #ffffff;
 }
 
@@ -6355,18 +6355,18 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #235789 !important;
+  background-color: #2d2121 !important;
   background-image: url(/img/bg.jpg);
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #235789 !important;
+  background-color: #2d2121 !important;
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #2d2121 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6376,7 +6376,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #2d2121 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6416,7 +6416,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #ffffff !important;
+  background-color: #2d2121 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9433,6 +9433,13 @@ button.bg-dark:focus {
   text-align: right !important;
 }
 
+.text-with-bg {
+  text-align: center !important;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -9502,7 +9509,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-lighter {
-  font-weight: lighter !important;
+  font-weight: 100 !important;
 }
 
 .font-weight-normal {

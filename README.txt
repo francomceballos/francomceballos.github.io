@@ -1,11 +1,26 @@
-  =>  Template Name    : FreeFolio - Freelancer Portfolio Template
+# Freelancer-Portfolio
 
-  =>  Template Link    : https://htmlcodex.com/freelancer-portfolio-template
+Brief description of your personal web project.
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+## Introduction
 
-  =>  Template Author  : HTML Codex
+Hello and thank you for visiting. This is a passion project that stems from my love for web development. The purpose of this website is to showcase my skills and learn more about them.
 
-  =>  Author Website   : https://htmlcodex.com
+The site is still a work in progress! so there are still unfinished elements and may not represent the final state of the project.
 
-  =>  About HTML Codex : HTML Codex is one of the top creators and publishers of Free HTML templates, HTML landing pages, HTML email templates and HTML snippets in the world. Read more at ( https://htmlcodex.com/about-us )
+## Technologies Used
+
+Some of the technologies used in this project are JavaScript and CSS.
+
+## Screenshots
+
+![til](./img/gif1.gif)
+
+
+## License
+
+Specify the license under which your project is distributed.
+
+## Contact
+
+Provide your contact information or ways for users to reach out to you.

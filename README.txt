@@ -14,7 +14,7 @@ Some of the technologies used in this project are JavaScript and CSS.
 
 ## Screenshots
 
-![til](https://github.com/francomceballos/freelancer-portfolio/blob/main/img/gif1.gif)
+![me](https://github.com/francomceballos/freelancer-portfolio/blob/main/img/gif1.gif)
 
 ## License
 

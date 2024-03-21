@@ -3,48 +3,50 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Welcome to my page!</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Franco Ceballos webpage" name="keywords">
-    <meta content="Franco Ceballos webpage" name="description">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Franco Ceballos webpage">
+    <meta name="description" content="Franco Ceballos webpage">
+    
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
+    <link rel="icon" href="img/favicon.ico">
+    
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"> 
-
+    
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <title>Welcome to my page!</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51" class="bg-dark">
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Franco</span>Ceballos</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#qualification" class="nav-item nav-link">Quality</a>
-                <a href="#skill" class="nav-item nav-link">Skill</a>
-                <a href="#service" class="nav-item nav-link">Service</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+<!-- Navbar Start -->
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+    <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5"><span class="text-primary">Franco</span>Ceballos</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav m-auto py-0">
+            <a href="#home" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#qualification" class="nav-item nav-link">Quality</a>
+            <a href="#skill" class="nav-item nav-link">Skill</a>
+            <a href="#service" class="nav-item nav-link">Service</a>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+    </div>
+</nav>
+<!-- Navbar End -->
 
 
-    <!-- Video Modal Start -->
+
+    <!-- Video Modal Start
     <div class="modal fade bg-dark" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -52,7 +54,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>        
-                    <!-- 16:9 aspect ratio -->
+                     16:9 aspect ratio
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
@@ -60,113 +62,111 @@
             </div>
         </div>
     </div>
-    <!-- Video Modal End -->
+     Video Modal End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh; background-image: url('img/bg.jpg');">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+<!-- Header Start -->
+<div class="container-fluid d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh; background-image: url('img/bg.jpg');">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+            </div>
+            <div class="col-lg-7 text-with-bg text-lg-left">
+                <h3 class="font-weight-normal mb-3 text-light">Hello! I'm</h3>
+                <h1 class="display-3 text-uppercase mb-2 fw-bold text-light" style="-webkit-text-stroke: 0px #00ffff">Franco Manuel Ceballos</h1>
+                <h1 class="typed-text-output d-inline font-weight-lighter text-light"></h1>
+                <div class="typed-text d-none">Junior FullStack Developer, Systems Engineering Student</div>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    <a href="/files/CV-Ceballos-Franco-2024.pdf" class="btn btn-light mr-1 text-center ml-4 mt-5 me-3" role="button">Descargar CV <br>Español</a>
+                    <a href="/files/CV-Ceballos-Franco-2024.pdf" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3" role="button" disabled>Download CV<br>English - not done yet</a>
+                    <a class="btn btn-light btn-social mr-1 text-center ml-3 mt-5 bi bi-linkedin" href="https://www.linkedin.com/in/francomanuelceballos/" role="button">LinkedIn<span class="bi bi-linkedin"></span></a>
                 </div>
-                <div class="col-lg-7 text-with-bg text-lg-left">
-                    <h3 class="font-weight-normal mb-3 text-light">Hello! I'm</h3>
-                    <h1 class="display-3 text-uppercase mb-2 fw-bold text-light" style="-webkit-text-stroke: 0px #00ffff"> Franco Manuel Ceballos </h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-light"></h1>
-                    <div class="typed-text d-none">Junior FullStack Developer, Systems Engineering Student</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <button type="button" href="/files/CV-Ceballos-Franco-2024.pdf" class="btn btn-light mr-1 text-center ml-4 mt-5 me-3">Descargar CV <br>Español</button>
-                        <button type="button" href="/files/CV-Ceballos-Franco-2024.pdf" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3" disabled>Download CV<br>English - not done yet</button>
-                        <button class="btn btn-light btn-social mr-1 text-center ml-3 mt-5 bi bi-linkedin" href="https://www.linkedin.com/in/francomanuelceballos/">LinkedIn<span class="bi bi-linkedin"></span></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+
+ <!-- About Start -->
+<div class="container-fluid py-5 bg-dark" id="about">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-light" style="-webkit-text-stroke: 0px #dee2e6;">About Me</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5 pb-4 pb-lg-0">
+                <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+            </div>
+            <div class="col-lg-7">
+                <h3 class="mb-4 text-light">Full Stack Developer</h3>
+
+                <button class="btn btn-light mr-5" onclick="cambiarIdioma('es')">Español</button>
+                <button class="btn btn-light mr-5" onclick="cambiarIdioma('en')">English</button><br><br>                  
+                <div id="contenido">
+                    <p id="saludo" class="text-secondary text-light font-weight-normal mb-3">¡Hola! Soy Franco Ceballos, un desarrollador Full Stack en proceso de aprendizaje y crecimiento en el mundo de la programación.</p>   
+                    <p id="parrafo1" class="text-secondary text-light font-weight-normal mb-3">Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras.</p>
+                    <p id="parrafo2" class="text-secondary text-light font-weight-normal mb-3">Desde que empecé mi viaje como desarrollador, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web.</p>
+                    <p id="parrafo3" class="text-secondary text-light font-weight-normal mb-3">He explorado lenguajes de programación tanto en el lado del cliente como en el servidor, incluyendo HTML, CSS, JavaScript y más. Además, he trabajado con tecnologías populares como React, Node.js y bases de datos SQL.</p>
+                    <p id="parrafo4" class="text-secondary text-light font-weight-normal mb-3">¡Gracias por visitar mi página web y estaré encantado de conectarme contigo! Aquí debajo podrás encontrar formas de contactarme</p>                  
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-6 py-2 text-light"><h6>Name: <span class="text-secondary">Franco Ceballos</span></h6></div>
+                    <div class="col-sm-6 py-2 text-light"><h6>Birthday: <span class="text-secondary">19 Jan 1996</span></h6></div>
+                    <div class="col-sm-6 py-2 text-light"><h6>Degree: <span class="text-secondary">Systems Engineering Student</span></h6></div>
+                    <div class="col-sm-6 py-2 text-light"><h6>Email: <span class="text-secondary"><br>francomanuelceballos@gmail.com<br>francoceballos@skiff.com</span></h6></div>
+                    <div class="col-sm-6 py-2 text-light"><h6>Country: <span class="text-secondary">Argentina</span></h6></div>
+                    <div class="col-sm-6 py-2 text-light"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                </div>
+                <a href="https://www.linkedin.com/in/francomanuelceballos/" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3" role="button">Find me on LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+<!-- Qualification Start -->
+<div class="container-fluid py-5 bg-dark" id="qualification">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-light" style="-webkit-text-stroke: 0px #dee2e6;">Education & Experience</h1>
+            <h1 class="position-absolute text-uppercase text-primary"></h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h3 class="mb-4 text-light">My Education</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1 text-light">Ingeniería en Sistemas de Información</h5>
+                        <h6 class="font-weight-bold mb-1 text-light">Universidad Tecnológica Nacional Facultad Regional Concepción del Uruguay | <small>2018 - 2023</small></h6>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1 text-light">Programación Orientada a Objetos: Java, UTN FRCU</h5>
+                        <h6 class="font-weight-bold mb-1 text-light">Universidad Tecnológica Nacional Facultad Regional Concepción del Uruguay | <small>jul 2020 - nov 2020</small></h6>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1 text-light">Universidad JavaScript - De Cero a Experto</h5>
+                        <h6 class="font-weight-bold mb-1 text-light">Udemy - Global Mentoring Ing. Ubaldo Acosta  | <small>ago 2023 - nov 2023</small></h6>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1 text-light">Ultimate Front-End Bootcamp: CSS, Bootstrap, JQ, JS, React</h5>
+                        <h6 class="font-weight-bold mb-1 text-light">Udemy - YouAccel Training  | <small>sept 2023 - nov 2023</small></h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Header End -->
+</div>
+<!-- Qualification End -->
 
-
-    <!-- About Start -->
-    <div class="container-fluid py-5 bg-dark" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-light" style="-webkit-text-stroke: 0px #dee2e6;">About Me</h1>
-                <h1 class="position-absolute text-uppercase text-primary"></h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4 text-light">Fulltack Developer</h3>
-
-                    <button class="btn btn-light mr-5" onclick="cambiarIdioma('es')">Español</button>
-                    <button class="btn btn-light mr-5" onclick="cambiarIdioma('en')">English</button><br><br>                  
-                    <div id="contenido">
-                        <p id="saludo" class="text-secondary text-light font-weight-normal mb-3">¡Hola! Soy Franco Ceballos, un desarrollador Full Stack en proceso de aprendizaje y crecimiento en el mundo de la programación.</p>   
-                        <p id="parrafo1" class="text-secondary text-light font-weight-normal mb-3"> Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras.</p>
-                        <p id="parrafo2" class="text-secondary text-light font-weight-normal mb-3"> Desde que empecé mi viaje como desarrollador, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web.</p>
-                        <p id="parrafo3" class="text-secondary text-light font-weight-normal mb-3"> He explorado lenguajes de programación tanto en el lado del cliente como en el servidor, incluyendo HTML, CSS, JavaScript y más. Además, he trabajado con tecnologías populares como React, Node.js y bases de datos SQL.</p>
-                        <p id="parrafo4" class="text-secondary text-light font-weight-normal mb-3"> ¡Gracias por visitar mi página web y estaré encantado de conectarme contigo! Aquí debajo podrás encontrar formas de contactarme</p>                  
-                    </div>
-               <!--     <p lang="ES">¡Hola! Soy Franco Ceballos, un desarrollador Full Stack en proceso de aprendizaje y crecimiento en el mundo de la programación. Mi pasión por la tecnología y el desarrollo de software me ha llevado a embarcarme en esta carrera para convertirme en un experto en la construcción de aplicaciones web y soluciones innovadoras.
-                        <br><br> Desde que empecé mi viaje como desarrollador, he estado dedicando tiempo y esfuerzo a adquirir un conjunto diverso de habilidades en el desarrollo de aplicaciones web. He explorado lenguajes de programación tanto en el lado del cliente como en el servidor, incluyendo HTML, CSS, JavaScript, Java y más. Además, he trabajado con tecnologías populares como React, Angular, Node.js y bases de datos SQL.
-                        <br><br> ¡Gracias por visitar mi página web y estaré encantado de conectarme contigo y conocer más sobre tus proyectos!<br><br>Aquí debajo podrás encontrar formas de contactarme</p> -->
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2 text-light"><h6>Name: <span class="text-secondary">Franco Ceballos</span></h6></div>
-                        <div class="col-sm-6 py-2 text-light"><h6>Birthday: <span class="text-secondary">19 Jan 1996</span></h6></div>
-                        <div class="col-sm-6 py-2 text-light"><h6>Degree: <span class="text-secondary">Systems Engineering Student</span></h6></div>
-                        <!--<div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div> 
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">francoceballos@skrill.com</span></h6></div>-->
-                        <div class="col-sm-6 py-2 text-light"><h6>Email: <span class="text-secondary"><br>francomanuelceballos@gmail.com<br>francoceballos@skiff.com</span></h6></div>
-                        <div class="col-sm-6 py-2 text-light"><h6>Country: <span class="text-secondary">Argentina</span></h6></div>
-                        <div class="col-sm-6 py-2 text-light"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                    </div>
-                    <button type="button" href="https://www.linkedin.com/in/francomanuelceballos/" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3">Find me in LinkedIn</button>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Qualification Start -->
-    <div class="container-fluid py-5 bg-dark id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-light" style="-webkit-text-stroke: 0px #dee2e6;">Education & Expericence</h1>
-                <h1 class="position-absolute text-uppercase text-primary"></h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3 class="mb-4 text-light">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 text-light">Ingeniería en Sistemas de Información</h5>
-                            <h6 class="font-weight-bold mb-1 text-light">Universidad Tecnológica Nacional Facultad Regional Concepción del Uruguay | <small>2018 - 2023</small></h6>
-                            <p></p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 text-light">Programación Orientada a Objetos: Java, UTN FRCU</h5>
-                            <h6 class="font-weight-bold mb-1 text-light">Universidad Tecnológica Nacional Facultad Regional Concepción del Uruguay | <small>jul 2020 - nov 2020</small></h6>
-                            <p></p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 text-light">Universidad JavaScript - De Cero a Experto</h5>
-                            <h6 class="font-weight-bold mb-1 text-light">Udemy - Global Mentoring Ing. Ubaldo Acosta  | <small>ago 2023 - nov 2023</small></h6>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1 text-light">Ultimate Front-End Bootcamp: CSS, Bootstrap, JQ, JS, React</h5>
-                            <h6 class="font-weight-bold mb-1 text-light">Udemy - YouAccel Training  | <small>sept 2023 - nov 2023</small></h6>
-                        </div>
-                    </div>
-                </div>
                <!--  <div class="col-lg-6">
                     <h3 class="mb-4">My Expericence</h3>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
@@ -196,76 +196,29 @@
     Qualification End -->
 
 
-    <!-- Skill Start -->
-     <div class="container-fluid py-5 bg-dark" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-light" style="-webkit-text-stroke: 0px #dee2e6;">My Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary"></h1>
+<!-- Skill Start -->
+<div class="container-fluid py-5 bg-dark" id="skill">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-light" style="-webkit-text-stroke: 0px #dee2e6;">My Skills</h1>
+            <h1 class="position-absolute text-uppercase text-primary"></h1>
+        </div>
+        <div class="row align-items-center">
+            <!-- Skill Items -->
+            <div class="col-md-6">
+                <div class="skill-item mb-4" data-skill-name="Java" data-progress-bar-class="bg-primary"></div>
+                <div class="skill-item mb-4" data-skill-name="CSS" data-progress-bar-class="bg-warning"></div>
+                <div class="skill-item mb-4" data-skill-name="TypeScript" data-progress-bar-class="bg-danger"></div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold text-light">Java</h6>
-                            <h6 class="font-weight-bold text-light"></h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold text-light">CSS</h6>
-                            <h6 class="font-weight-bold"></h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold text-light">TypeScript</h6>
-                            <h6 class="font-weight-bold"></h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold text-light">JavaScript</h6>
-                            <h6 class="font-weight-bold"></h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold text-light">Angular</h6>
-                            <h6 class="font-weight-bold"></h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold text-light">Linux</h6>
-                            <h6 class="font-weight-bold"></h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <div class="skill-item mb-4" data-skill-name="JavaScript" data-progress-bar-class="bg-danger"></div>
+                <div class="skill-item mb-4" data-skill-name="Angular" data-progress-bar-class=""></div>
+                <div class="skill-item mb-4" data-skill-name="Linux" data-progress-bar-class="bg-info"></div>
             </div>
         </div>
     </div>
-    <!-- Skill End -->
+</div>
+<!-- Skill End -->
 
 
     <!-- Services Start 
@@ -498,45 +451,37 @@
     </div>
      Blog End -->
 
-
-    <!-- Contact Start -->
-    <!-- <div class="container-fluid py-5 bg-light" id="contact">
+<!--
+     <div class="container-fluid py-5 bg-light" id="contact">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 0px #dee2e6;">Contact Me</h1>
-                <h1 class="position-absolute text-uppercase text-primary"></h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form name="sentMessage" id="contactForm" novalidate>
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message" required data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -544,31 +489,30 @@
             </div>
         </div>
     </div>
-    Contact End -->
+    -->
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5" style="background-image: url('img/bg.jpg');">
+    <footer class="container-fluid bg-primary text-white mt-5 py-5" style="background-image: url('img/bg.jpg');">
         <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-              <!--  <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
-               <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/francomanuelceballos/">LinkedIn<i class="fab fa-linkedin"></i></a>
-              <!--  <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>-->
+            <div class="social-links mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/francomanuelceballos/" aria-label="LinkedIn">
+                    LinkedIn<i class="fab fa-linkedin"></i>
+                </a>
             </div>
-            <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
+            <nav class="footer-nav mb-3">
+                <a class="text-white" href="#" aria-label="Privacy Policy">Privacy</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
+                <a class="text-white" href="#" aria-label="Terms of Service">Terms</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
+                <a class="text-white" href="#" aria-label="FAQs">FAQs</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
-            </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold">Franco Ceballos</a>
+                <a class="text-white" href="#" aria-label="Help">Help</a>
+            </nav>
+            <p class="m-0">
+                &copy; <a class="text-white font-weight-bold" href="#" aria-label="Domain Name">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#" aria-label="Designer's Name">Franco Ceballos</a>
             </p>
         </div>
-    </div>
-    <!-- Footer End -->
+    </footer>
+    
 
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
@@ -578,6 +522,7 @@
 
 
     <!-- JavaScript Libraries -->
+    <script src="js/skills.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>

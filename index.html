@@ -22,27 +22,27 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51" class="bg-dark">
-<!-- Navbar Start -->
+<!-- Refactored Navbar Start -->
 <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-    <a href="index.html" class="navbar-brand ml-lg-3">
+    <a class="navbar-brand ml-lg-3" href="index.html">
         <h1 class="m-0 display-5"><span class="text-primary">Franco</span>Ceballos</h1>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-        <div class="navbar-nav m-auto py-0">
-            <a href="#home" class="nav-item nav-link active">Home</a>
-            <a href="#about" class="nav-item nav-link">About</a>
-            <a href="#qualification" class="nav-item nav-link">Education</a>
-            <a href="#experience" class="nav-item nav-link">Experience</a>
-            <a href="#soft-skills" class="nav-item nav-link"> Soft Skills</a>
-            <a href="#skill" class="nav-item nav-link">Skill</a>
-        </div>
-        <a href="https://www.linkedin.com/in/francomanuelceballos/" class="btn btn-outline-primary d-none d-lg-block">Contact me</a>
+        <ul class="navbar-nav m-auto py-0">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#qualification">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#soft-skills">Soft Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+        </ul>
+        <a class="btn btn-outline-primary d-none d-lg-block" href="https://www.linkedin.com/in/francomanuelceballos/">Contact me</a>
     </div>
 </nav>
-<!-- Navbar End -->
+<!-- Refactored Navbar End -->
 
 
 
@@ -169,60 +169,63 @@
 <!-- Qualification End -->
 
 
-<!-- Qualification Start -->
+<!-- Experience Start -->
 <div class="container-fluid py-5" style="background-color: #2b2b2b;" id="experience">
     <div class="container text-light text-justify float-md-right">
         <div class="position-relative d-flex align-items-center justify-content-center">
-            <h1 class="display-1 text-uppercase text-light text-center style">My Experience</h1>
-            <h1 class="position-absolute text-uppercase text-primary"></h1>
+            <h1 class="display-1 text-uppercase text-light text-center">My Experience</h1>
         </div>
 
-        <div>
-            <h1>Aplicación web de manejo de inventarios</h1>
-            <p>
-                Aplicación para el manejo de inventarios realizada con:
-            </p>
-            <ul>
-                <li>TypeScript</li>
-                <li>Angular</li>
-                <li>Java</li>
-                <li>SpringBoot</li>
-                <li>Base de datos: MySQL</li>
-            </ul>
-            <a href="https://github.com/francomceballos/App-FullStack-manejo-de-inventarios" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3">Ver código en GitHub</a>
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mt-3">Aplicación web de manejo de inventarios</h1>
+                <p>
+                    Aplicación para el manejo de inventarios realizada con:
+                </p>
+                <ul>
+                    <li>TypeScript</li>
+                    <li>Angular</li>
+                    <li>Java</li>
+                    <li>SpringBoot</li>
+                    <li>MySQL</li>
+                </ul>
+                <a href="https://github.com/francomceballos/App-FullStack-manejo-de-inventarios" class="btn btn-light mr-1 text-center mt-5 me-3">Ver código en GitHub</a>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="mt-3">Página web personal</h1>
+                <p>
+                    Página web personal realizada con:
+                </p>
+                <ul>
+                    <li>HTML</li>
+                    <li>Bootstrap</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>          
+                </ul>
+                <br><br><br>
+                <a href="https://github.com/francomceballos/freelancer-portfolio" class="btn btn-light mr-1 text-center mt-5 me-3">Ver código en GitHub</a>
+            </div>
         </div>
-        <br> <br> 
-        <div>
-            <h1>Página web personal</h1>
-            <p>
-                Página web personal realizada con:
-            </p>
-            <ul>
-                <li>HTML</li>
-                <li>Bootstrap</li>
-                <li>CSS</li>
-                <li>JavaScript</li>          
-            </ul>
-            <a href="https://github.com/francomceballos/freelancer-portfolio" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3">Ver código en GitHub</a>
-        </div>
-        <br> <br>   
-        <div>
-            <h1>Aplicación web de Recursos Humanos</h1>
-            <p>
-                Aplicación para la gestión de recursos humanos realizada con:
-            </p>
-            <ul>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>SpringBoot</li>
-                <li>Java</li>
-                <li>Base de datos: MySQL</li>
-            </ul>
-            <button type="button" href="https://github.com/francomceballos/FullStack-React" class="btn btn-light mr-1 text-center ml-3 mt-5 me-3">Ver código en GitHub</button>
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mt-3">Aplicación web de Recursos Humanos</h1>
+                <p>
+                    Aplicación para la gestión de recursos humanos realizada con:
+                </p>
+                <ul>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>SpringBoot</li>
+                    <li>Java</li>
+                    <li>MySQL</li>
+                </ul>
+                <a href="https://github.com/francomceballos/FullStack-React" class="btn btn-light mr-1 text-center mt-5 me-3">Ver código en GitHub</a>
+            </div>
         </div>
     </div>
 </div>
-<!-- Qualification End -->
+<!-- Experience End -->
+
 
 
                <!--  <div class="col-lg-6">

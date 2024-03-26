@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"> 
     
     <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <title>Welcome to my page!</title>
@@ -170,7 +171,7 @@
 <div class="container-fluid py-5" style="background-color: #2b2b2b;" id="experience">
     <div class="container text-light text-justify">
         <div class="text-center">
-            <h1 class="display-1 text-uppercase text-light">My Experience</h1>
+            <h1 class="display-1 text-uppercase text-light">My Experience & portfolio</h1>
         </div>
         <div class="row justify-content-around">
             <div class="col-lg-4">
@@ -314,22 +315,24 @@
         <div class="row align-items-center">
             <!-- Skill Items -->
             <div class="col-md-6">
-                <div class="skill-item mb-4" data-skill-name="Java" data-progress-bar-class="bg-primary"></div>
-                <div class="skill-item mb-4" data-skill-name="CSS" data-progress-bar-class="bg-warning"></div>
-                <div class="skill-item mb-4" data-skill-name="TypeScript" data-progress-bar-class="bg-danger"></div>
-                <div class="skill-item mb-4" data-skill-name="SQL" data-progress-bar-class="bg-danger"></div>
-                <div class="skill-item mb-4" data-skill-name="Git" data-progress-bar-class="bg-danger"></div>
+                <div class="skill-item mb-4" data-skill-name="Java" data-progress-bar-class=""></div>
+                <div class="skill-item mb-4" data-skill-name="CSS" data-progress-bar-class=""></div>
+                <div class="skill-item mb-4" data-skill-name="TypeScript" data-progress-bar-class=""></div>
+                <div class="skill-item mb-4" data-skill-name="SQL" data-progress-bar-class=""></div>
+                <div class="skill-item mb-4" data-skill-name="Git" data-progress-bar-class=""></div>
             </div>
             <div class="col-md-6">
-                <div class="skill-item mb-4" data-skill-name="JavaScript" data-progress-bar-class="bg-danger"></div>
+                <div class="skill-item mb-4" data-skill-name="JavaScript" data-progress-bar-class=""></div>
                 <div class="skill-item mb-4" data-skill-name="Angular" data-progress-bar-class=""></div>
                 <div class="skill-item mb-4" data-skill-name="React" data-progress-bar-class=""></div>
-                <div class="skill-item mb-4" data-skill-name="Linux" data-progress-bar-class="bg-primary"></div>
-                <div class="skill-item mb-4" data-skill-name="UML" data-progress-bar-class="bg-danger"></div>
+                <div class="skill-item mb-4" data-skill-name="Linux" data-progress-bar-class=""></div>
+                <div class="skill-item mb-4" data-skill-name="UML" data-progress-bar-class=""></div>
             </div>
         </div>
     </div>
 </div>
+
+
 <!-- Skill End -->
 
 
@@ -607,9 +610,9 @@
         <div class="container text-center py-5">
             <div class="social-links mb-4">
                 <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/francomanuelceballos/" aria-label="LinkedIn">
-                    LinkedIn<i class="fab fa-linkedin"></i>
+                  <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
-            </div>
+              </div>
             <nav class="footer-nav mb-3">
                 <a class="text-white" href="#" aria-label="Privacy Policy">Privacy</a>
                 <span class="px-3">|</span>
@@ -626,15 +629,15 @@
     </footer>
     
 
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top"> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+          </svg>
+    </button>
 
     <!-- JavaScript Libraries -->
-    <script src="js/skills.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
@@ -643,12 +646,16 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
 
-    <!-- Contact Javascript File -->
+    <!-- Contact Javascript File 
     <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="mail/contact.js"></script> 
+    -->
 
     <!-- Template Javascript -->
+    <script src="js/skills.js"></script>
+    <script src="js/backtotop.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
